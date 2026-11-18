@@ -1,0 +1,14 @@
+{
+  "name": "dewired",
+  "version": "1.5.0",
+  "private": true,
+  "description": "Client-side defusal of WIRED's Verso paywall and Sophi newsletter regwall",
+  "scripts": {
+    "test": "node test/verify.js",
+    "check": "node --check dewired.user.js && node test/verify.js"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=18"
+  }
+}
